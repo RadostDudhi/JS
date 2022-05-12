@@ -109,3 +109,10 @@ header{
 .menu li + li{
     padding-left: 10px;
 }
+.slider{
+    background-image: url(../img/glina-chashka-011-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}

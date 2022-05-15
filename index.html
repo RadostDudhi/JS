@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
     />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fancybox.css">
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.css"/>
@@ -28,7 +29,7 @@
             <a class="header__bt" href="">Кулинарный блог</a>
             <a class="header__bt" href="">Доставка и оплата</a>
             <a class="header__bt" href="">Вопрос-ответ</a>
-            <a class="header__btn" href="">Войти / Регистрация</a>
+            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Войти / Регистрация</a>
           </div>
         </div>
       </div>
@@ -40,7 +41,7 @@
             </div>
             <nav class="menu">
               <ul>
-                <li><a href="#">Посуда</a></li>
+                <li><a href="https://djinni.co/my/dashboard/">Посуда</a></li>
                 <li><a href="#">Аксессуары</a></li>
                 <li><a href="#">В интерьер</a></li>
                 <li><a href="#">Эксклюзивные подарки</a></li>
@@ -54,31 +55,10 @@
     <section class="slider">
       <div class="container">
         <div class="slider__inner">
+
+          
           <div class="slider__item">
-            <div class="slider__title">
-              КЕРАМИКА ДЛЯ ДОМА
-            </div>
-            <div class="slider__text">
-
-            </div>
-            <div class="slider__btn">
-
-            </div>
-          </div>
-
-          <div class="slider__item">
-            <div class="slider__title">
-              КЕРАМИКА ДЛЯ ДОМА
-            </div>
-            <div class="slider__text">
-
-            </div>
-            <div class="slider__btn">
-
-            </div>
-          </div>
-
-          <div class="slider__item">
+            <div class="sliser__item-content">
             <div class="slider__title">
               КЕРАМИКА ДЛЯ ДОМА
             </div>
@@ -90,10 +70,50 @@
             </div>
           </div>
         </div>
+        
+        <div class="slider__item">
+          <div class="sliser__item-content">
+          <div class="slider__title">
+            КЕРАМИКА ДЛЯ ДОМА
+          </div>
+          <div class="slider__text">
+
+          </div>
+          <div class="slider__btn">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="slider__item">
+        <div class="sliser__item-content">
+        <div class="slider__title">
+          КЕРАМИКА ДЛЯ ДОМА
+        </div>
+        <div class="slider__text">
+
+        </div>
+        <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn">
+          Оставить заявку
+      </div>
+      
+    </div>
+     
+   
+        </div>
+       
+        </a> 
       </div>
     </section>
 
-   
+   <div id="modal">
+      <h2>Hello!</h2>
+      <p>You are awesome!</p>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
   </body>

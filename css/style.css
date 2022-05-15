@@ -109,10 +109,52 @@ header{
 .menu li + li{
     padding-left: 10px;
 }
+#modal{
+    display: none;
+}
 .slider{
     background-image: url(../img/glina-chashka-011-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 500px;
+}
+.previous_round:before{
+    content: "\f104";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+.next_round:before{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+.slider__item-content{
+    text-align: center;
+    padding: 110px;
+    max-width: 665px;
+    margin: 0 auto;
+}
+.slider__title{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.slider__text{
+    line-height: 24px;
+    font-style: 18px;
+    color: #d3d2d2;
+    margin-bottom: 50px;
+}
+.slider__btn{
+    
 }

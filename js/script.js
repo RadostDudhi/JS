@@ -1,6 +1,6 @@
 $(function(){
 
-   $('.slider__inner').slick();
+        $('.slider__inner').slick();
 
     
 

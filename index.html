@@ -10,11 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
     />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/fancybox.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/slick.css" />
-    <link rel="stylesheet" href="css/style.css"/>
-
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header class="header">
@@ -28,8 +27,14 @@
             <a class="header__bt" href="">Контакты</a>
             <a class="header__bt" href="">Кулинарный блог</a>
             <a class="header__bt" href="">Доставка и оплата</a>
-            <a class="header__bt" href="">Вопрос-ответ</a>
-            <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">Войти / Регистрация</a>
+            <a
+              data-fancybox
+              data-src="#modal"
+              href="javascript:;"
+              class="header__btn"
+              href="#"
+              >Войти / Регистрация</a
+            >
           </div>
         </div>
       </div>
@@ -55,64 +60,148 @@
     <section class="slider">
       <div class="container">
         <div class="slider__inner">
-
-          
           <div class="slider__item">
             <div class="slider__item-content">
-            <div class="slider__title">
-              КЕРАМИКА ДЛЯ ДОМА
+              <div class="slider__title">КЕРАМИКА ДЛЯ ДОМА</div>
+              <div class="slider__text">
+                Какой-то тест тут будет, наверное мотивирующий или уникальный. Я
+                пока еще не придумала)) Но сам факт, что это все работает, не
+                может не радовать!
+              </div>
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="slider__btn default-btn"
+              >
+                Оставить заявку</a
+              >
             </div>
-            <div class="slider__text">
-              Какой-то тест тут будет, наверное мотивирующий или уникальный. Я пока еще не придумала)) Но сам факт, что это все работает, не может не радовать!
-            </div>
-            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
-              Оставить заявку</a> 
           </div>
-        </div>
-        
-        <div class="slider__item">
-          <div class="slider__item-content">
-          <div class="slider__title">
-            КЕРАМИКА ДЛЯ КАФЕ
-          </div>
-          <div class="slider__text">
-            Какой-то тест тут будет, наверное мотивирующий или уникальный. Я пока еще не придумала)) Но сам факт, что это все работает, не может не радовать!
-          </div>
-          
-            <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
-              Оставить заявку</a> 
-          
-        </div>
-      </div>
 
-      <div class="slider__item">
-        <div class="slider__item-content">
-        <div class="slider__title">
-          керамика в интерьер
+          <div class="slider__item">
+            <div class="slider__item-content">
+              <div class="slider__title">КЕРАМИКА ДЛЯ КАФЕ</div>
+              <div class="slider__text">
+                Какой-то тест тут будет, наверное мотивирующий или уникальный. Я
+                пока еще не придумала)) Но сам факт, что это все работает, не
+                может не радовать!
+              </div>
+
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="slider__btn default-btn"
+              >
+                Оставить заявку</a
+              >
+            </div>
+          </div>
+
+          <div class="slider__item">
+            <div class="slider__item-content">
+              <div class="slider__title">керамика в интерьер</div>
+              <div class="slider__text">
+                Какой-то тест тут будет, наверное мотивирующий или уникальный. Я
+                пока еще не придумала)) Но сам факт, что это все работает, не
+                может не радовать!
+              </div>
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="slider__btn default-btn"
+              >
+                Оставить заявку</a
+              >
+            </div>
+          </div>
         </div>
-        <div class="slider__text">
-          Какой-то тест тут будет, наверное мотивирующий или уникальный. Я пока еще не придумала)) Но сам факт, что это все работает, не может не радовать!
-        
-        
       </div>
-      <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
-        Оставить заявку</a> 
-    </div>
-    </div>
-    </div>
-    </div>
-     
-  
     </section>
 
-   <div id="modal">
+    <section class="about">
+      <div class="contaiter">
+        <div class="about__top">
+          <div class="about__title-box">
+            <div class="about__title">Наши услуги</div>
+            <div class="about__text">
+              Комплексный подход к вашему вопросу, своевременное выполнение
+              заказов, ручная работа, уникальные изделия.
+            </div>
+          </div>
+          <div class="about__btn">
+            <a href="#"> Показать все услуги </a>
+          </div>
+        </div>
+        <div class="about__items">
+          <div class="about__item">
+            <img src="img/cup_bl.jpg" alt="" width="200px" height="250px" />
+            <div class="about__item-title">Кофейная чашка</div>
+            <div class="about__item-text">
+              Какой-то текст с описанием ghjhjghkghfkчашки
+            </div>
+            <div class="about__item-btn">
+              <a class="about__item-link" href="#">Подробнее</a>
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="default-btn"
+                >В корзину</a
+              >
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/dish_cow.jpg" alt="" width="200px" height="250px" />
+            <div class="about__item-title">Декоративное блюдо</div>
+            <div class="about__item-text">
+              Какой-то текст с описанием декоративного блюда
+            </div>
+            <div class="about__item-btn">
+              <a class="about__item-link" href="#">Подробнее</a>
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="default-btn"
+                >В корзину</a
+              >
+            </div>
+          </div>
+          <div class="about__item">
+            <img src="img/coc2.jpg" alt="" width="200px" height="250px" />
+            <div class="about__item-title">Пивная кружка</div>
+            <div class="about__item-text">
+              Какой-то текст с описанием пивной кружки
+            </div>
+            <div class="about__item-btn">
+              <a class="about__item-link" href="#">Подробнее</a>
+              <a
+                data-fancybox
+                data-src="#modal"
+                href="javascript:;"
+                class="default-btn"
+                >В корзину</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="modal">
       <h2>Hello!</h2>
       <p>You are awesome!</p>
-  </div>
-    
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="js/fancybox.umd.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+    ></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
   </body>

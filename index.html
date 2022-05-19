@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/jquery.formstyler.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
     <header class="header">
@@ -46,6 +47,9 @@
               <a href="#" src=""></a>
             </div>
             <nav class="menu">
+              <div class="header__btn-menu">
+                <span class="icon-bars"></span>
+              </div>
               <ul>
                 <li><a href="https://djinni.co/my/dashboard/">Посуда</a></li>
                 <li><a href="#">Аксессуары</a></li>
@@ -318,7 +322,7 @@
                   текса...
                 </div>
                 <div class="news__slider-author">
-                  Главный автор этого сайта) Конечно же Я)
+                  Главный автор этого сайта: Конечно же Я)
                 </div>
               </div>
               <div class="news__slider-item">
@@ -335,7 +339,7 @@
                   текса...
                 </div>
                 <div class="news__slider-author">
-                  Главный автор этого сайта) Конечно же Я)
+                  Главный автор этого сайта: Конечно же Я)
                 </div>
               </div>
               <div class="news__slider-item">
@@ -352,7 +356,7 @@
                   текса...
                 </div>
                 <div class="news__slider-author">
-                  Главный автор этого сайта) Конечно же Я)
+                  Главный автор этого сайта: Конечно же Я)
                 </div>
               </div>
             </div>
@@ -383,6 +387,8 @@
         </div>
       </div>
     </section>
+
+    
     <footer class="footer">
       <div class="footer__content">
         <div class="container">
@@ -431,8 +437,17 @@
     </footer>
 
     <div id="modal">
-      <h2>Hello!</h2>
-      <p>You are awesome!</p>
+      <form>
+        <label for="name"><b>Введите имя</b></label>
+        <input type="text" name="name" placeholder="Ваше имя">
+        <label for="email"><b>Введите E-mail</b></label>
+        <input type="text" name="email" placeholder="E-mail">
+        <label for="tel"><b>Введите телефон</b></label>
+        <input type="text" name="tel" placeholder="Контактный телефон">
+        <label for="password"><b>Введите пароль</b></label>
+        <input type="text" name="password" placeholder="Введите пароль">
+        <input type="submit" value="Отправить">
+      </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>

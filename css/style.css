@@ -54,6 +54,10 @@ header{
     clear: both;
     display: block;
 }
+.header__btn-menu{
+    display: none;
+    font-size: 28px;
+}
 .header__phone,
 .header__mail,
 .header__bt{
@@ -393,10 +397,6 @@ header{
     border: 1px solid #e6e6e6;
     background-color: #fff;
     padding-left: 17px;
-    /*background: transparent;
-    box-shadow: none;
-    text-shadow: none;
-    border-radius: 0;*/
 }
 .form__box-inner .jq-selectbox__trigger-arrow::before{
     content: "\f105";
@@ -689,8 +689,29 @@ header{
     font-family: 'Roboto', sans-serif;
     padding: 8px 0;
     font-weight: 400;
-
 }
 .copy__text{
     color: #ebebeb;   
+}
+#modal{
+    width: 300px;
+}
+#modal input{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 40px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+#modal input[type="submit"]:hover{
+    background-color: #ffc222;
+    border: none;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
